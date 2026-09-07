@@ -26,7 +26,7 @@ It returns a non-negative predicted repression score (predicted RS) for ranking 
 | `code/utilities/` | Public-release audit utilities |
 | `data/processed/` | State-resolved repression atlas and public-dataset inventory |
 | `data/reproduction_tables/` | Processed tables underlying reported quantitative analyses |
-| `data/example_inputs/` | Synthetic, privacy-safe inference example |
+| `data/example_inputs/` | IL6ST reference-coverage inference example |
 | `figures/` | Standalone scripts for visualizing released results |
 | `docs/` | Reproducibility and source-data manifests |
 
@@ -51,7 +51,7 @@ The model expects a candidate-centred 6000-nt 3′UTR window and a position-matc
 
 The coverage tensor used during model development was scaled to a covered-base mean of 20 and transformed as `log2(normalized coverage + 1)`. Supply model-ready values with `--coverage-mode model`, or provide untransformed values together with the source track's covered-base mean using `--coverage-mode raw --covered-mean VALUE`.
 
-Run the included synthetic example:
+Run the included IL6ST reference-coverage example:
 
 ```bash
 python code/model_inference/predict.py \

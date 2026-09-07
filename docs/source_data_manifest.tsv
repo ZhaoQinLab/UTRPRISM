@@ -41,8 +41,8 @@ data/reproduction_tables/web_gene_query_il6st.csv	Gene-query example; Figure 6	1
 data/reproduction_tables/web_multisample_mbnl3.csv	Multi-sample query example; Figure 6	237	20	037d0a8603a3368e966c3e5e03ce453cc7de0b161de6de537a0f334f337c66ce
 data/reproduction_tables/web_multisample_mbnl3_representative_candidates.csv	Representative multi-sample candidates; Figure 6	3	21	e32a5bbf2d03097328ff4086d386b2e8462be5dad9fbde945c04554ac6d4652a
 data/processed/atlas_metadata.json	Atlas dimensions and release notes	—	—	92362e9d567d2892fc6a274f3afb8bd102d271d3db84dd81cc3dbb190a5a9802
-data/example_inputs/candidate_centered_3utr.fasta	Synthetic inference smoke test	—	—	affa4eac46919b985fab0adafb1807f490aec6ad7ec46304d1b87e1c1d713326
-data/example_inputs/mature_mirna.fasta	Synthetic inference smoke test	—	—	f281f02ae20fc8c02f1bb0c559c41d02739614fee3a2d0485c98d23612d1c190
-data/example_inputs/coverage.csv	Synthetic inference smoke test	—	—	ad96579776e15996229e3be3475ce12521286731a2f2e1ef99fe6bb99f7d3728
-data/example_inputs/README.md	Synthetic inference smoke test	—	—	e8d79450df66cc6ec9eefbf01af9bbf5b6fb0331afbabe217f6b70676c524f83
-data/example_inputs/expected_prediction.json	Synthetic inference smoke-test expectation	—	—	4fbac0b30c458ddc3a1e9fe9bda43dbca3bdc96d6c6a7a1676c36f778ff158b1
+data/example_inputs/candidate_centered_3utr.fasta	IL6ST 3′UTR sequence; Figure 6 gene-query example	—	—	3c0718cc867629d09731adb146c69c40c2dbbca4e38cacb90b70fb9e5daf11ab
+data/example_inputs/mature_mirna.fasta	hsa-miR-449c-3p mature sequence; Figure 6 gene-query example	—	—	eeb4e5d816301dd1c4dacfb826183ec2019fbe5c0d1ec865c95b519d08c811ed
+data/example_inputs/coverage.csv	IL6ST pooled-reference coverage; Figure 6 gene-query example	—	—	e8c089d67fea2ef682bdaf2e54d135d7b6e6332c4bca34187f9268c93fed87d4
+data/example_inputs/README.md	IL6ST inference-example provenance	—	—	cf4a45606e8b468a75b3f1376cbc52c080922b36abca9661ee62fe2c7f3cb33a
+data/example_inputs/expected_prediction.json	IL6ST inference-example expected result	—	—	4af791169cf314e1b6d6a2064e3cff6b04a54d86e9cb5c6f973d91bae1031029

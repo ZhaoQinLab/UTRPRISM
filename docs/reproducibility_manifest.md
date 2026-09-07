@@ -1,4 +1,4 @@
-# UTRPRISM v1.0.1 reproducibility manifest
+# UTRPRISM v1.0.2 reproducibility manifest
 
 ## Frozen model
 
@@ -60,6 +60,10 @@ Each plotting script writes one standalone result visualization. The independent
 5. Splice values across ordered 3′UTR exons in transcript orientation.
 6. Use the candidate-site span to define a 6000-nt window; pad shorter windows with zeros.
 7. Align the 3′UTR sequence and coverage positions exactly.
+
+## Included inference example
+
+The example under `data/example_inputs/` uses the human GRCh38 `IL6ST` spliced 3′UTR, mature `hsa-miR-449c-3p`, and the packaged pooled human reference coverage used for the Figure 6 gene-query workflow. Its expected predicted RS is linked to the corresponding row in `data/reproduction_tables/web_gene_query_il6st.csv`.
 
 ## Release boundaries
 

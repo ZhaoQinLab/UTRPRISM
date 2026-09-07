@@ -4,7 +4,7 @@ Audit date: 2026-09-08 (Asia/Shanghai)
 
 Repository: `https://github.com/ZhaoQinLab/UTRPRISM`
 
-Release: `v1.0.1`
+Release: `v1.0.2`
 
 ## Uploaded release contents
 
@@ -17,7 +17,7 @@ The release contains the following content classes:
 - evaluation code for development, context-switch, independent-cohort, human-perturbation, and mouse-transfer analyses;
 - a processed state-resolved repression atlas containing 426,243 gene–miRNA–expressed-state associations;
 - processed public-dataset metadata and panel-level reproduction tables for Figures 1–6 and selected Supplementary analyses;
-- deterministic, synthetic example inputs and an expected inference result;
+- the IL6ST reference-coverage inference example and its expected result;
 - 18 standalone plotting scripts for released quantitative results; and
 - public source-data provenance, release notes, and audit utilities.
 
@@ -37,7 +37,7 @@ The release contains the following content classes:
 - Python source compilation: PASS
 - Public-file hash manifest verification: PASS
 - Frozen-model deserialization and input/output signature check: PASS
-- Deterministic synthetic inference smoke test: PASS (`predicted_rs = 0.10152196884155273`)
+- IL6ST reference-example smoke test: PASS (absolute difference from the released Figure 6 value < 2 × 10⁻⁷)
 - Development evaluation: PASS (production validation Spearman R = 0.5204938984; n = 29,807)
 - Fixed-sequence context-switch evaluation: PASS (high-distance top-quartile ordering accuracy = 0.7441860465)
 - Independent-cohort evaluation: PASS (Sepsis R = 0.3983241153; Healthy R = 0.4230766993)

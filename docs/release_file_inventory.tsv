@@ -1,9 +1,9 @@
 path	size_bytes
 .gitignore	95
 CITATION.cff	786
-FINAL_REPOSITORY_AUDIT.md	2678
+FINAL_REPOSITORY_AUDIT.md	2698
 LICENSE	1073
-README.md	4400
+README.md	4416
 code/evaluation/__init__.py	57
 code/evaluation/common.py	2648
 code/evaluation/evaluate_context_switches.py	1542
@@ -22,11 +22,11 @@ code/preprocessing/features.py	807
 code/preprocessing/sequence.py	2958
 code/utilities/__init__.py	25
 code/utilities/release_audit.py	3318
-data/example_inputs/README.md	245
-data/example_inputs/candidate_centered_3utr.fasta	6036
-data/example_inputs/coverage.csv	66009
-data/example_inputs/expected_prediction.json	132
-data/example_inputs/mature_mirna.fasta	46
+data/example_inputs/README.md	731
+data/example_inputs/candidate_centered_3utr.fasta	6103
+data/example_inputs/coverage.csv	65572
+data/example_inputs/expected_prediction.json	287
+data/example_inputs/mature_mirna.fasta	41
 data/processed/atlas_metadata.json	421
 data/processed/public_datasets.csv	5653
 data/processed/state_resolved_repression_atlas.csv.gz	10263389
@@ -71,8 +71,9 @@ data/reproduction_tables/web_multisample_mbnl3_representative_candidates.csv	109
 data/reproduction_tables/zero_coverage_predictions.csv.gz	953409
 docs/release_notes_v1.0.0.md	637
 docs/release_notes_v1.0.1.md	684
-docs/reproducibility_manifest.md	4978
-docs/source_data_manifest.tsv	8540
+docs/release_notes_v1.0.2.md	491
+docs/reproducibility_manifest.md	5333
+docs/source_data_manifest.tsv	8622
 environment/environment.yml	116
 environment/package_versions.txt	202
 environment/requirements.txt	157
@@ -97,4 +98,4 @@ figures/plot_unscored_candidate_calibration.py	1519
 figures/plot_unscored_ranking_lift.py	1383
 model/epoch56_production_model/utrprism_epoch56.keras	17156805
 model/model_config.json	867
-tests/smoke_test.py	1537
+tests/smoke_test.py	2440
