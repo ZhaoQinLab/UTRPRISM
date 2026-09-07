@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use UTRPRISM, please cite the manuscript and this software release."
+title: "UTRPRISM enables context-resolved microRNA target prioritization across expressed 3′UTR states"
+type: software
+version: 1.0.0
+date-released: 2026-09-08
+license: MIT
+repository-code: "https://github.com/ZhaoQinLab/UTRPRISM"
+url: "https://utrprism.com/"
+authors:
+  - family-names: Zhao
+    given-names: Yilong
+  - family-names: Zhang
+    given-names: Jing
+  - family-names: Qu
+    given-names: Shuyuan
+  - family-names: Deng
+    given-names: Jiaru
+  - family-names: Zhang
+    given-names: Fanyu
+  - family-names: Zhou
+    given-names: Yiyi
+  - family-names: Hu
+    given-names: Shuchang
+  - family-names: Gu
+    given-names: Bin
+  - family-names: Zhao
+    given-names: Qin

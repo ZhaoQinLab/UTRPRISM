@@ -1,0 +1,10 @@
+{
+  "description": "State-resolved repression atlas used for UTRPRISM development.",
+  "analysis_unit": "gene–miRNA–expressed-state association",
+  "n_associations": 426243,
+  "n_genes": 16581,
+  "n_mirnas": 2573,
+  "n_gene_state_units": 64990,
+  "selection_frequency_operating_point": 0.76,
+  "notes": "sample_id is an internal association identifier, not a patient identifier; no clinical metadata are included."
+}

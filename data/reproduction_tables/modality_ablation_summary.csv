@@ -1,0 +1,5 @@
+input,global_spearman,hl_auc
+full model,0.5205,0.7131
+− coverage,0.4134,0.6626
+− miRNA,0.4816,0.5636
+− 3′UTR seq,0.2208,0.6495

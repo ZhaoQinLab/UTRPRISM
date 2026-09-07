@@ -1,0 +1,5 @@
+split,run,global_spearman,hl_auc,note
+random (genes recur in train+test),v8g_split_random_sf076,0.5158,0.6631,full deterministic validation partition; 29807 associations
+pair-disjoint (gene–miRNA pairs held out),v8g_split_pair_sf076,0.5164,0.6165,full deterministic validation partition; 29788 associations
+gene-disjoint (all associations from held-out genes),v8g_split_gene_sf076,0.4987,0.6184,full deterministic validation partition; 29600 associations from 3123 unseen genes
+miRNA-disjoint (held-out miRNAs),v8g_split_mirna_sf076,0.4544,0.5354,hardest: entirely unseen miRNAs; still positive

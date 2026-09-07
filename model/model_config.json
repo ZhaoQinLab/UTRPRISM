@@ -1,0 +1,28 @@
+{
+  "release_name": "UTRPRISM epoch-56 production model",
+  "model_file": "epoch56_production_model/utrprism_epoch56.keras",
+  "architecture": "v8g",
+  "keras_model_name": "regressor",
+  "parameter_count": 1397592,
+  "checkpoint_epoch": 56,
+  "selection_frequency_min": 0.76,
+  "training_associations": 119230,
+  "development_validation_associations": 29807,
+  "inputs": {
+    "utr_sequence": [6000, 4],
+    "utr_coverage": [6000, 1],
+    "mirna_sequence": [30, 4]
+  },
+  "output": {
+    "name": "repression_score",
+    "interpretation": "non-negative predicted RS for candidate ranking"
+  },
+  "coverage_preprocessing": {
+    "covered_base_mean_target": 20.0,
+    "transform": "log2(normalized coverage + 1)",
+    "orientation": "strand-oriented spliced 3′UTR",
+    "window": "candidate-centred 6000 nt"
+  },
+  "nucleotide_channel_order": ["A", "C", "G", "U/T"],
+  "frozen_sha256": "a19f915e7cd4ac22c776940d8cf99d12251d7fb78d6c2d57a39f22f9d3b39f65"
+}

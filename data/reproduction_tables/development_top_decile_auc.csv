@@ -1,0 +1,13 @@
+model_id,dataset,subset,method,n,n_high,auroc,ci_lo,ci_hi,p_vs_utrprism
+sf076_combo_best,held-out,all-method common,UTRPRISM,375,38,0.7541,0.662571,0.838874,
+sf076_combo_best,held-out,all-method common,TargetScan,375,38,0.619866,0.524557,0.71465,0.015992
+sf076_combo_best,held-out,all-method common,miRDB,375,38,0.529361,0.431698,0.619934,0.001999
+sf076_combo_best,held-out,all-method common,miRanda,375,38,0.51023,0.410842,0.60496,0.001
+sf076_combo_best,independent,TargetScan-covered,UTRPRISM,749,75,0.696558,0.629663,0.761424,
+sf076_combo_best,independent,TargetScan-covered,TargetScan,749,75,0.695213,0.632113,0.749568,0.978511
+sf076_combo_best,independent,miRDB-covered,UTRPRISM,9292,930,0.761766,0.746616,0.777797,
+sf076_combo_best,independent,miRDB-covered,miRDB,9292,930,0.526138,0.507356,0.545585,0.001
+sf076_combo_best,independent,all-method common,UTRPRISM,474,48,0.698259,0.615584,0.774359,
+sf076_combo_best,independent,all-method common,TargetScan,474,48,0.679651,0.604841,0.749872,0.695652
+sf076_combo_best,independent,all-method common,miRDB,474,48,0.514085,0.413416,0.614578,0.004998
+sf076_combo_best,independent,all-method common,miRanda,474,48,0.554186,0.466152,0.637541,0.008996

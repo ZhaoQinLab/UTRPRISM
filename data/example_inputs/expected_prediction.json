@@ -1,0 +1,5 @@
+{
+  "predicted_rs": 0.10152196884155273,
+  "absolute_tolerance": 1e-07,
+  "tested_with": "TensorFlow 2.19.1 / Keras 3.12.0 / CPU"
+}
