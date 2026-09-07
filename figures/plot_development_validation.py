@@ -11,7 +11,7 @@ import pandas as pd
 from scipy.stats import spearmanr
 
 
-ROOT = Path(__file__).resolve().parents[2]
+ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_DATA = ROOT / "data/reproduction_tables/development_validation_predictions.csv.gz"
 
 

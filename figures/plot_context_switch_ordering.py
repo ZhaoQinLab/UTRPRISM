@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 
-ROOT = Path(__file__).resolve().parents[2]
+ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_DATA = ROOT / "data/reproduction_tables/context_switch_threshold_grid.csv"
 COLORS = {
     "Low pairwise coverage distance": "#8A949D",

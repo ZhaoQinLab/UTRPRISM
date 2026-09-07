@@ -11,7 +11,7 @@ import numpy as np
 import pandas as pd
 
 
-ROOT = Path(__file__).resolve().parents[2]
+ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_DATA = ROOT / "data/reproduction_tables/human_perturbation_rpf_records.csv"
 COLORS = {"U2OS_miR1": "#315B8A", "U2OS_miR155": "#D76C55", "HEK293T_miR1": "#4FA6A0"}
 

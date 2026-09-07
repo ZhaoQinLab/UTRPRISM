@@ -19,18 +19,16 @@ It returns a non-negative predicted repression score (predicted RS) for ranking 
 | Directory | Contents |
 | --- | --- |
 | `environment/` | Conda and pip environment specifications used for release testing |
-| `model/` | Frozen epoch-56 production model, public configuration, and checksums |
+| `model/` | Frozen epoch-56 production model and public configuration |
 | `code/preprocessing/` | Sequence, coverage, windowing, and tensor-construction utilities |
 | `code/model_inference/` | Model deserialization and command-line inference |
 | `code/evaluation/` | Reproduction of development, independent-cohort, perturbation, and mouse-transfer metrics |
-| `code/utilities/` | Hashing and public-release audit utilities |
+| `code/utilities/` | Public-release audit utilities |
 | `data/processed/` | State-resolved repression atlas and public-dataset inventory |
 | `data/reproduction_tables/` | Processed tables underlying reported quantitative analyses |
 | `data/example_inputs/` | Synthetic, privacy-safe inference example |
-| `figures/single_panel_reproduction/` | Standalone scientific plot scripts without manuscript layout code |
+| `figures/` | Standalone scripts for visualizing released results |
 | `docs/` | Reproducibility and source-data manifests |
-
-Raw sequencing files, clinical metadata, reference-genome bundles, manuscript files, publication-layout code, deployment configuration, and nonproduction checkpoints are intentionally excluded.
 
 ## Installation
 
@@ -46,8 +44,6 @@ Alternatively, in a Python 3.12 environment:
 ```bash
 python -m pip install -r environment/requirements.txt
 ```
-
-TensorFlow CPU inference is sufficient for the included example. GPU use is optional.
 
 ## Model inference
 
@@ -79,37 +75,11 @@ python code/preprocessing/coverage_from_bigwig.py \
   --output outputs/GENE.model_coverage.csv
 ```
 
-Raw bigWig and reference files are not distributed here. Users are responsible for matching the bigWig and BED assembly.
-
-## Reproduction
-
-Recompute the principal released metrics:
-
-```bash
-python code/evaluation/evaluate_development.py
-python code/evaluation/evaluate_context_switches.py
-python code/evaluation/evaluate_independent_cohort.py
-python code/evaluation/evaluate_human_perturbation.py
-python code/evaluation/evaluate_mouse_transfer.py
-```
-
-Generate selected standalone quantitative plots:
-
-```bash
-python figures/single_panel_reproduction/plot_development_validation.py
-python figures/single_panel_reproduction/plot_context_switch_ordering.py
-python figures/single_panel_reproduction/plot_functional_response.py
-```
-
-These scripts generate scientific plot content only. Full-figure composition, panel lettering, and publication artwork are intentionally not part of this repository.
-
-Expected headline values and the source table used by each command are recorded in [`docs/reproducibility_manifest.md`](docs/reproducibility_manifest.md). File-level provenance and checksums are in [`docs/source_data_manifest.tsv`](docs/source_data_manifest.tsv).
+Use bigWig and BED inputs from the same genome assembly.
 
 ## Data availability
 
-Public source datasets are listed in [`data/processed/public_datasets.csv`](data/processed/public_datasets.csv). Raw data are not redistributed. Processed association-level and candidate-level tables required for the released reproduction workflows are provided under `data/processed/` and `data/reproduction_tables/`.
-
-No patient identifiers or private clinical metadata are included.
+Public source datasets are listed in [`data/processed/public_datasets.csv`](data/processed/public_datasets.csv). Processed association-level and candidate-level tables used by the released workflows are provided under `data/processed/` and `data/reproduction_tables/`.
 
 ## Citation
 
@@ -117,7 +87,7 @@ Please cite:
 
 > Zhao Y, Zhang J, Qu S, Deng J, Zhang F, Zhou Y, Hu S, Gu B, Zhao Q. UTRPRISM enables context-resolved microRNA target prioritization across expressed 3′UTR states.
 
-The manuscript citation can be updated with journal, year, volume, pages, and DOI after publication. Machine-readable citation metadata are provided in [`CITATION.cff`](CITATION.cff).
+The manuscript citation can be updated with journal, year, volume, pages, and DOI after publication.
 
 ## License
 

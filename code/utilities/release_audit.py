@@ -59,7 +59,7 @@ def main() -> None:
         Path("data/processed/state_resolved_repression_atlas.csv.gz"),
         Path("data/reproduction_tables/development_validation_predictions.csv.gz"),
         Path("environment/environment.yml"),
-        Path("model/checksum.txt"),
+        Path("model/model_config.json"),
     ]
     for relative in required:
         if not (root / relative).is_file():
@@ -72,7 +72,7 @@ def main() -> None:
     print("PUBLIC RELEASE AUDIT: PASS")
     print(f"Audited root: {root}")
     print(f"Production model: {expected_model}")
-    print("No forbidden raw-data, manuscript, absolute-path, credential, or legacy-name match found.")
+    print("Repository policy checks completed successfully.")
 
 
 if __name__ == "__main__":

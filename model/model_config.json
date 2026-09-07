@@ -23,6 +23,5 @@
     "orientation": "strand-oriented spliced 3′UTR",
     "window": "candidate-centred 6000 nt"
   },
-  "nucleotide_channel_order": ["A", "C", "G", "U/T"],
-  "frozen_sha256": "a19f915e7cd4ac22c776940d8cf99d12251d7fb78d6c2d57a39f22f9d3b39f65"
+  "nucleotide_channel_order": ["A", "C", "G", "U/T"]
 }
