@@ -72,6 +72,7 @@ data/reproduction_tables/zero_coverage_predictions.csv.gz	953409
 docs/release_notes_v1.0.0.md	637
 docs/release_notes_v1.0.1.md	684
 docs/release_notes_v1.0.2.md	491
+docs/release_notes_v1.0.3.md	435
 docs/reproducibility_manifest.md	5333
 docs/source_data_manifest.tsv	8622
 environment/environment.yml	116

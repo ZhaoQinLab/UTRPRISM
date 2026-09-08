@@ -4,7 +4,7 @@ Audit date: 2026-09-08 (Asia/Shanghai)
 
 Repository: `https://github.com/ZhaoQinLab/UTRPRISM`
 
-Release: `v1.0.2`
+Release: `v1.0.3`
 
 ## Uploaded release contents
 
