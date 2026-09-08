@@ -1,5 +1,7 @@
 # UTRPRISM
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22651512.svg)](https://doi.org/10.5281/zenodo.22651512)
+
 UTRPRISM is a context-resolved framework for microRNA target prioritization by integrating expressed 3′UTR states with sequence information.
 
 ## Overview
