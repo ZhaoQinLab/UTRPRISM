@@ -1,4 +1,4 @@
-# UTRPRISM v1.0.3 reproducibility manifest
+# UTRPRISM v1.0.4 reproducibility manifest
 
 ## Frozen model
 
