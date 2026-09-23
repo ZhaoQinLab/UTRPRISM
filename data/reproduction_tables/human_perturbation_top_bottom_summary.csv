@@ -1,0 +1,2 @@
+contrast,estimate,within_experiment_permutation_p_two_sided,within_experiment_permutation_p_one_sided_audit,n_permutations,top_n,bottom_n
+Top 20% minus Bottom 40% mean RPF repression,0.5613451871237323,0.0028999420011599,0.0012999740005199,50000,17,29

@@ -1,0 +1,6 @@
+perturbation,mean_drop,median_drop,mean_pert,frac_drop
+seed mutation,0.0021,0.0015,0.0997,0.5683
+local coverage mask,-0.0006,0.0,0.1023,0.14
+distal coverage mask,0.0275,0.0237,0.0743,0.9233
+random region mask,-0.0009,0.0,0.1027,0.14
+all coverage off,0.0297,0.0265,0.0721,0.9483

@@ -1,0 +1,9 @@
+{
+  "gene": "IL6ST",
+  "mirna": "hsa-miR-449c-3p",
+  "assembly": "GRCh38 (GCA_000001405.15)",
+  "coverage_context": "packaged pooled human reference (tissue=all)",
+  "predicted_rs": 0.1155516430735588,
+  "absolute_tolerance": 1e-06,
+  "tested_with": "TensorFlow 2.19.1 / Keras 3.12.0"
+}

@@ -1,0 +1,9 @@
+metric,value
+sample_count,253.0
+unassigned_frac,0.0267116198270069
+ctx_per_gene_median,4.0
+ctx_size_median,47.0
+ctx_size_min,10.0
+studies_per_ctx_median,6.0
+frac_ctx_multistudy,0.9730112324973073
+atlas_contexts,64990.0
