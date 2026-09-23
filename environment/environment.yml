@@ -1,8 +1,21 @@
 name: utrprism
 channels:
   - conda-forge
+  - nodefaults
 dependencies:
-  - python=3.12
-  - pip
+  - python=3.12.12=hd63d673_1_cpython
+  - pip=25.3=pyh8b19718_0
+  - tensorflow=2.19.1=cuda129py312ha3fd0c4_252
+  - tensorflow-base=2.19.1=cuda129py312h59614e2_252
+  - tensorflow-estimator=2.19.1=cuda129py312h813c257_252
+  - cuda-version=12.9=h4f385c5_3
+  - cudnn=9.10.2.21=hbcb9cd8_0
+  - keras=3.12.0=pyh753f3f9_0
+  - numpy=2.3.5=py312h33ff503_0
+  - pandas=2.3.3=py312hf79963d_1
+  - scipy=1.16.3=py312h7a1785b_1
+  - scikit-learn=1.8.0=py312h4f0b9e3_0
+  - matplotlib=3.10.8=py312h7900ff3_0
+  - h5py=3.15.1=nompi_py312ha4f8f14_101
   - pip:
       - -r requirements.txt

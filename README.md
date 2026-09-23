@@ -18,7 +18,7 @@ It returns a non-negative predicted repression score (predicted RS) for ranking 
 
 | Directory | Contents |
 | --- | --- |
-| `environment/` | Conda and pip environment specifications used for release testing |
+| `environment/` | Conda environment specification, pip additions, and recorded package versions |
 | `model/` | Frozen epoch-56 production model and public configuration |
 | `code/preprocessing/` | Sequence, coverage, windowing, and tensor-construction utilities |
 | `code/model_inference/` | Model deserialization and command-line inference |
@@ -32,18 +32,14 @@ It returns a non-negative predicted repression score (predicted RS) for ranking 
 
 ## Installation
 
-Create the tested Conda environment:
+The recorded environment uses Linux x86_64, Python 3.12.12, and the conda-forge CUDA 12.9 build of TensorFlow 2.19.1. Create the Conda environment:
 
 ```bash
 conda env create -f environment/environment.yml
 conda activate utrprism
 ```
 
-Alternatively, in a Python 3.12 environment:
-
-```bash
-python -m pip install -r environment/requirements.txt
-```
+Conda installs TensorFlow and the numerical libraries; the pip section installs PyYAML and pyBigWig from `environment/requirements.txt`. Installed versions, build identifiers, and package sources are listed in `environment/package_versions.txt`.
 
 ## Model inference
 
