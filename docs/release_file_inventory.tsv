@@ -68,7 +68,7 @@ data/reproduction_tables/web_gene_query_il6st.csv	7455
 data/reproduction_tables/web_multisample_mbnl3.csv	57216
 data/reproduction_tables/web_multisample_mbnl3_representative_candidates.csv	1090
 data/reproduction_tables/zero_coverage_predictions.csv.gz	953409
-docs/release_notes_v1.0.5.md	637
+docs/release_notes_v1.0.6.md	637
 docs/reproducibility_manifest.md	5328
 docs/source_data_manifest.tsv	8622
 environment/environment.yml	116
