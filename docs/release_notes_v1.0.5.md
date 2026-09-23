@@ -1,4 +1,4 @@
-# UTRPRISM v1.0.0
+# UTRPRISM v1.0.5
 
 This is the manuscript-associated reproducibility release for UTRPRISM.
 
